@@ -14,14 +14,14 @@ layers:
   - '['
   - {t: ']', h: lower}
   - A
-  - S
-  - D
-  - F
+  - {t: S, h: LEFT CONTROL}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT GUI}
   - G
   - H
-  - J
-  - K
-  - L
+  - {t: J, h: RIGHT GUI}
+  - {t: K, h: RIGHT ALT}
+  - {t: L, h: RIGHT CONTROL}
   - ;
   - ''''
   - {t: '-', h: LEFT SHIFT}
@@ -36,29 +36,29 @@ layers:
   - .
   - /
   - {t: \, h: RIGHT SHIFT}
-  - LEFT GUI
-  - LEFT CONTROL
-  - LEFT ALT
+  - {t: ESCAPE, h: raise}
+  - LEFT SHIFT
+  - ''
   - {t: ESCAPE, h: raise}
   - ENTER
   - ␣
   lower:
   - {t: ▽, type: trans}
   - '`'
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
+  - ''
+  - '{'
+  - ''
+  - ''
+  - ''
+  - ''
   - UP ARROW
-  - F10
-  - F11
-  - F12
+  - ''
+  - ''
+  - ''
   - {type: held}
   - '!'
   - '@'
-  - '#'
+  - '['
   - $
   - '%'
   - BACKSPACE
@@ -70,7 +70,7 @@ layers:
   - {t: ▽, type: trans}
   - '1'
   - '2'
-  - '3'
+  - (
   - '4'
   - '5'
   - '6'
@@ -122,10 +122,10 @@ layers:
   - '9'
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
@@ -165,9 +165,9 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
