@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - {t: ']', h: lower}
+  - lower
   - A
   - {t: S, h: LEFT CONTROL}
   - {t: D, h: LEFT ALT}
@@ -39,7 +39,7 @@ layers:
   - {t: ESCAPE, h: raise}
   - LEFT SHIFT
   - ''
-  - {t: ESCAPE, h: raise}
+  - {t: ESCAPE, h: lower}
   - ENTER
   - ␣
   lower:
