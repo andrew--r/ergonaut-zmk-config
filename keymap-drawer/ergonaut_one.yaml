@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: Gui}
+  - ↹
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
+  - {t: ']', h: lower}
   - A
   - S
   - D
@@ -23,8 +23,8 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - ''''
+  - {t: '-', h: LEFT SHIFT}
   - Z
   - X
   - C
@@ -35,39 +35,39 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
+  - {t: \, h: RIGHT SHIFT}
+  - LEFT GUI
+  - LEFT CONTROL
+  - LEFT ALT
+  - {t: ESCAPE, h: raise}
+  - ENTER
+  - ␣
   lower:
-  - {t: F1, h: Gui}
-  - F2
+  - {t: ▽, type: trans}
+  - '`'
   - F3
   - F4
   - F5
   - F6
   - F7
   - F8
-  - F9
+  - UP ARROW
   - F10
   - F11
   - F12
-  - {t: +, h: Ctrl}
+  - {type: held}
   - '!'
   - '@'
   - '#'
   - $
   - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
+  - BACKSPACE
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - '='
+  - \
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -78,10 +78,10 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -92,40 +92,40 @@ layers:
   - KP 8
   - KP 9
   - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - ''
+  - ''
   - {t: '=', h: Ctrl}
   - KP MULTIPLY
   - KP 4
   - KP 5
   - KP 6
   - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - ''
   - Alt
   - KP 0
   - KP 1
   - KP 2
   - KP 3
   - KP DOT
-  - Vol Down
-  - End
-  - ↓
-  - Page Down
-  - Pause Break
-  - Alt
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
@@ -141,7 +141,7 @@ layers:
   - ''
   - ''
   - Boot
-  - BT CLR
+  - {t: BT CLR, type: held}
   - BT 1
   - BT 2
   - BT 3
@@ -165,9 +165,9 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
