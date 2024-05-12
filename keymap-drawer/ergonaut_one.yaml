@@ -46,8 +46,8 @@ layers:
   - {t: ▽, type: trans}
   - '`'
   - ''
-  - '{'
-  - '}'
+  - '['
+  - ']'
   - ''
   - ''
   - ''
@@ -58,8 +58,8 @@ layers:
   - {type: held}
   - '!'
   - {t: '@', h: Ctrl}
-  - {t: '[', h: LEFT ALT}
-  - {t: ']', h: LEFT GUI}
+  - {t: '{', h: LEFT ALT}
+  - {t: '}', h: LEFT GUI}
   - '%'
   - BACKSPACE
   - LEFT ARROW
