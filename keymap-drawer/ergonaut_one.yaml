@@ -47,7 +47,7 @@ layers:
   - '`'
   - ''
   - '{'
-  - ''
+  - '}'
   - ''
   - ''
   - ''
@@ -57,9 +57,9 @@ layers:
   - ''
   - {type: held}
   - '!'
-  - '@'
-  - '['
-  - $
+  - {t: '@', h: Ctrl}
+  - {t: '[', h: LEFT ALT}
+  - {t: ']', h: LEFT GUI}
   - '%'
   - BACKSPACE
   - LEFT ARROW
@@ -130,23 +130,23 @@ layers:
   - {t: ▽, type: trans}
   adjust:
   - Boot
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
   - ''
   - ''
   - ''
   - ''
   - ''
   - Boot
-  - {t: BT CLR, type: held}
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - BT 5
   - BT 4
   - BT 3
