@@ -24,7 +24,7 @@ layers:
   - {t: L, h: RIGHT CONTROL}
   - ;
   - ''''
-  - {t: '-', h: LEFT SHIFT}
+  - '-'
   - Z
   - X
   - C
@@ -38,7 +38,7 @@ layers:
   - {t: \, h: RIGHT SHIFT}
   - {t: ESCAPE, h: raise}
   - LEFT SHIFT
-  - ''
+  - lower
   - {t: ESCAPE, h: lower}
   - ENTER
   - ␣
