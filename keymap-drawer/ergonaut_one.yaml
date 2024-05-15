@@ -13,7 +13,7 @@ layers:
   - P
   - '['
   - lower
-  - A
+  - {t: A, h: LEFT SHIFT}
   - {t: S, h: LEFT CONTROL}
   - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT GUI}
@@ -22,7 +22,7 @@ layers:
   - {t: J, h: RIGHT GUI}
   - {t: K, h: RIGHT ALT}
   - {t: L, h: RIGHT CONTROL}
-  - ;
+  - {t: ;, h: LEFT SHIFT}
   - ''''
   - '-'
   - Z
@@ -56,7 +56,7 @@ layers:
   - ''
   - ''
   - {type: held}
-  - '!'
+  - {t: '!', h: LEFT SHIFT}
   - {t: '@', h: Ctrl}
   - {t: '{', h: LEFT ALT}
   - {t: '}', h: LEFT GUI}
@@ -68,16 +68,16 @@ layers:
   - '='
   - \
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
+  - ''
+  - ''
   - (
   - )
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -147,12 +147,12 @@ layers:
   - ''
   - ''
   - ''
-  - BT 5
-  - BT 4
-  - BT 3
-  - BT 2
-  - BT 1
-  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Reset
   - ''
   - ''
