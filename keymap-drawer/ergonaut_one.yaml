@@ -39,8 +39,8 @@ layers:
   - {t: ESCAPE, h: raise}
   - LEFT SHIFT
   - lower
-  - {t: ESCAPE, h: lower}
-  - ENTER
+  - {t: ESCAPE, h: Gui+ ␣}
+  - {t: ENTER, h: lower}
   - ␣
   lower:
   - {t: ▽, type: trans}
