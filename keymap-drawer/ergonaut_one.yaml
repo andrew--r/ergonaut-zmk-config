@@ -37,7 +37,7 @@ layers:
   - /
   - {t: \, h: RIGHT SHIFT}
   - {t: ESCAPE, h: raise}
-  - LEFT SHIFT
+  - '&shift_caps'
   - lower
   - {t: ESCAPE, h: Gui+ ␣}
   - {t: ENTER, h: lower}
