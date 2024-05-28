@@ -1,6 +1,6 @@
 layers:
   default:
-  - ↹
+  - ESCAPE
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - lower
+  - ↹
   - {t: A, h: LEFT SHIFT}
   - {t: S, h: LEFT CONTROL}
   - {t: D, h: LEFT ALT}
@@ -36,12 +36,12 @@ layers:
   - .
   - /
   - {t: \, h: RIGHT SHIFT}
-  - {t: ESCAPE, h: raise}
+  - {t: raise, h: toggle}
   - '&shift_caps'
-  - lower
+  - {t: lower, h: toggle}
   - {t: ESCAPE, h: Gui+ ␣}
-  - {t: ENTER, h: lower}
-  - ␣
+  - {t: ␣, h: lower}
+  - ENTER
   lower:
   - {t: ▽, type: trans}
   - '`'
@@ -55,7 +55,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: '!', h: LEFT SHIFT}
   - {t: '@', h: Ctrl}
   - {t: '{', h: LEFT ALT}
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   raise:
   - {t: KP NUM, h: Gui}
@@ -92,11 +92,11 @@ layers:
   - KP 8
   - KP 9
   - KP MINUS
-  - +
+  - '0'
   - '1'
   - '2'
   - '3'
-  - ''
+  - .
   - ''
   - {t: '=', h: Ctrl}
   - KP MULTIPLY
@@ -104,13 +104,13 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - '0'
+  - +
   - '4'
   - '5'
   - '6'
   - '-'
   - ''
-  - Alt
+  - {t: ▽, type: trans}
   - KP 0
   - KP 1
   - KP 2
@@ -120,9 +120,9 @@ layers:
   - '7'
   - '8'
   - '9'
-  - ''
+  - /
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -141,19 +141,8 @@ layers:
   - ''
   - ''
   - Boot
-  - {type: held}
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
   - ''
   - ''
   - ''
@@ -165,9 +154,20 @@ layers:
   - ''
   - ''
   - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - ''
   - {type: held}
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
