@@ -36,12 +36,12 @@ layers:
   - .
   - /
   - {t: \, h: RIGHT SHIFT}
-  - {t: raise, h: toggle}
+  - raise
   - '&shift_caps'
-  - {t: lower, h: toggle}
+  - lower
   - {t: ESCAPE, h: Gui+ ␣}
-  - {t: ␣, h: lower}
-  - ENTER
+  - {t: ENTER, h: lower}
+  - ␣
   lower:
   - {t: ▽, type: trans}
   - '`'
@@ -81,9 +81,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
   - {t: KP NUM, h: Gui}
@@ -122,7 +122,7 @@ layers:
   - '9'
   - /
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,9 +165,9 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: ▽, type: trans}
-  - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - {type: held}
+  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
