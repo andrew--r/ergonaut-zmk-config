@@ -38,7 +38,7 @@ layers:
   - {t: \, h: RIGHT SHIFT}
   - raise
   - '&shift_caps'
-  - lower
+  - '&layer1'
   - {t: ESCAPE, h: Gui+ ␣}
   - {t: ENTER, h: lower}
   - ␣
@@ -81,9 +81,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
   - {t: KP NUM, h: Gui}
@@ -167,7 +167,7 @@ layers:
   - Reset
   - {type: held}
   - ''
-  - {type: held}
-  - ''
   - {t: ▽, type: trans}
+  - ''
+  - {type: held}
   - {t: ▽, type: trans}
