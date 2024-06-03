@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - '-'
   - ↹
   - {t: A, h: LEFT SHIFT}
   - {t: S, h: LEFT CONTROL}
@@ -37,8 +37,8 @@ layers:
   - /
   - {t: \, h: RIGHT SHIFT}
   - {t: ESCAPE, h: raise}
-  - '&shift_caps'
   - '&layer1'
+  - '&shift_caps'
   - {t: ESCAPE, h: Gui+ ␣}
   - {t: ENTER, h: lower}
   - ␣
@@ -49,19 +49,19 @@ layers:
   - '['
   - ']'
   - ''
-  - ''
-  - ''
+  - Gui+ X
+  - BACKSPACE
   - UP ARROW
-  - ''
+  - DELETE
   - ''
   - ''
   - {t: ▽, type: trans}
   - {t: '!', h: LEFT SHIFT}
   - {t: '@', h: Ctrl}
-  - {t: '{', h: LEFT ALT}
-  - {t: '}', h: LEFT GUI}
+  - {t: '{', h: Sft+ LEFT ALT}
+  - {t: '}', h: Sft+ LEFT GUI}
   - '%'
-  - BACKSPACE
+  - Gui+ Z
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -74,8 +74,8 @@ layers:
   - )
   - ''
   - ''
-  - ''
-  - ''
+  - Gui+ C
+  - Gui+ V
   - ''
   - ''
   - {t: ▽, type: trans}
