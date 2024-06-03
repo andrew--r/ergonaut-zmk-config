@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - '-'
+  - '['
   - ↹
   - {t: A, h: LEFT SHIFT}
   - {t: S, h: LEFT CONTROL}
