@@ -57,7 +57,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: '!', h: LEFT SHIFT}
-  - {t: '@', h: Ctrl}
+  - {t: '=', h: Ctrl}
   - {t: '{', h: Sft+ LEFT ALT}
   - {t: '}', h: Sft+ LEFT GUI}
   - '%'
