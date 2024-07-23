@@ -72,15 +72,15 @@ layers:
   - ''
   - (
   - )
-  - ''
-  - ''
+  - <
+  - '>'
   - Gui+ C
   - Gui+ V
   - ''
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ␣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
