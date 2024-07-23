@@ -56,7 +56,7 @@
         lower_layer {
             bindings = <
 &trans  &kp GRAVE            &none            &kp LEFT_BRACKET             &kp RIGHT_BRACKET             &none          &kp LG(X)         &kp BACKSPACE   &kp UP_ARROW    &kp DELETE       &none      &none
-&trans  &mt LEFT_SHIFT EXCL  &mt LCTRL EQUAL  &mt LS(LEFT_ALT) LEFT_BRACE  &mt LS(LEFT_GUI) RIGHT_BRACE  &kp PRCNT      &kp LG(Z)         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL  &kp BACKSLASH
+&trans  &mt LEFT_SHIFT EXCL  &mt LCTRL EQUAL  &mt LS(LEFT_ALT) LEFT_BRACE  &mt LS(LEFT_GUI) RIGHT_BRACE  &kp PRCNT      &kp LG(Z)         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp EQUAL  &kp GREATER_THAN
 &trans  &none                &none            &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS         &kp LESS_THAN  &kp GREATER_THAN  &kp LG(C)       &kp LG(V)       &none            &none      &trans
                                               &trans                       &kp SPACE                     &trans         &trans            &trans          &trans
             >;

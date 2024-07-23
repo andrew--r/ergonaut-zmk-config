@@ -66,7 +66,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - '='
-  - \
+  - '>'
   - {t: ▽, type: trans}
   - ''
   - ''
